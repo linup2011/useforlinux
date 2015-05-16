@@ -76,9 +76,9 @@ set softtabstop=4
 "let g:indent_guides_guide_size=1
 :nmap <silent> <Leader>i <Plug>IndentGuidesToggle
 "折叠za打开和关闭折叠 zM关闭所有折叠zR打开所有折叠
-set foldmethod=indent
-set foldmethod=syntax
-set nofoldenable
+"set foldmethod=indent
+"set foldmethod=syntax
+"set nofoldenable
 
 "正向遍历同名标签
 nmap <Leader>tn :tnext<CR>
