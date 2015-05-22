@@ -10,5 +10,21 @@ function FindProxyForURL(url,host)
     {
         return direct;
     }
+/*    if(shExpMatch(host,"*redhat.com*"))
+    {
+        return direct;
+    }*/
+    if(shExpMatch(host,"*redhat.com"))
+    {
+        return direct;
+    }
+    if(shExpMatch(host,"*youdao.com*"))
+    {
+        return direct;
+    }
+    if(shExpMatch(host,"*www.baidu.com*"))
+    {
+        return direct;
+    }
     return "PROXY squid.apac.redhat.com:3128; DIRECT";
 }
