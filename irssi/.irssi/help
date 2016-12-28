@@ -1,0 +1,41 @@
+# bin
+some files used to cooperate with the perl script.
+
+## for rnotify
+	irssi-connect.sh
+	notify-remote.sh
+	http://jonathanbeluch.com/blog/2011/03/remote-notify-irssi-screen/
+
+# some basic usage
+
+1. join server and channel
+/connect server
+/join #channel
+2. scroll screen
+pageup and pagedown
+alt+p   and alt_n	
+3. list users
+/names
+/who
+
+4. talk to user
+/query username
+
+5. message prompt
+6. change window:
+ctrl+P: move to the previous window
+ctrl+N: move to the next window
+7. auto connect to server:
+http://www.irchelp.org/clients/unix/irssi/irssiatboot.html
+
+8. irssi notification
+https://github.com/stickster/irssi-libnotify
+
+9. theme:
+
+wget -P ~/.irssi https://raw.githubusercontent.com/msparks/irssiscripts/master/themes/fear2.theme
+/set theme fear2
+
+/wc  window close
+/set autolog on
+/set log
