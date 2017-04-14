@@ -286,5 +286,6 @@ settings = {
   core = { real_name = "lin"; user_name = "jishi"; nick = "jishi"; };
   "fe-text" = { actlist_sort = "refnum"; };
   "fe-common/core" = { theme = "fear2"; autolog = "yes"; };
+  "perl/core/scripts" = { awl_shared_sbar = "OFF"; };
 };
 logs = { };
